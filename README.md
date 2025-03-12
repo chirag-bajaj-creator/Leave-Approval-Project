@@ -21,26 +21,24 @@ The **Leave Approval System** is an automated platform designed to streamline th
 ## 📂 Project Structure
 ```
 leave-approval-system/
-│── backend/            # Backend API (Node.js/Spring Boot)
-│── frontend/           # Frontend application (React/Next.js)
+│── backend/            # Backend API (Flask, Twilio)
+│── frontend/           # Frontend application (React.js)
 │── database/           # Database scripts and configurations
-│── docs/               # Documentation & API reference
 │── README.md           # Project documentation
-│── .env.example        # Environment variables template
 ```
 
 ## 🔧 Installation & Setup
 ### 1️⃣ Clone the Repository
 ```sh
-git clone https://github.com/your-username/leave-approval-system.git
+git clone https://github.com/Deepanshu-Sehgal/Leave-Approval-Project.git
 cd leave-approval-system
 ```
 
 ### 2️⃣ Backend Setup
 ```sh
-cd backend
-npm install   # Install dependencies
-npm start     # Run the backend server
+cd final_pipeline
+pip install   # Install dependencies 
+python backend_leave_pipeline.py    # Run the backend server
 ```
 
 ### 3️⃣ Frontend Setup
@@ -51,48 +49,30 @@ npm start     # Run the frontend app
 ```
 
 ### 4️⃣ Environment Configuration
-- Copy `.env.example` to `.env`
-- Update database credentials, API keys, and JWT secrets.
+- Update database credentials, and API keys.
 
-## 🎯 Usage
-1. **Employee Login**: Submit leave requests.
-2. **Manager Login**: Approve/reject leave requests.
-3. **Admin Login**: Manage users and view reports.
 
 ## 📜 API Endpoints
-| Method | Endpoint           | Description               |
-|--------|-------------------|---------------------------|
-| POST   | /api/auth/login   | User authentication       |
-| POST   | /api/leave/apply  | Apply for leave          |
-| GET    | /api/leave/status | Check leave status       |
-| PUT    | /api/leave/approve/:id | Approve leave |
-| PUT    | /api/leave/reject/:id  | Reject leave  |
+| Method | Endpoint                                           | Description               |
+|--------|----------------------------------------------------|---------------------------|
+| POST   | http:localhost:3000'/employee-details/<employee_id | Apply for leave           |
+| POST    | '/model-training'                                 | Real time model traning   |
+| POST    | /twilio-webhook                                   | Approve leave/Reject Leave|
 
-## 🛡️ Security Measures
-- JWT-based authentication.
-- Role-based access control.
-- Input validation and protection against SQL Injection & XSS.
 
 ## 🚀 Future Enhancements
 - Mobile app integration.
-- AI-based leave prediction system.
+- More Fine Tuned AI-based leave prediction system.
 - Automated HR analytics dashboard.
-
-## 🤝 Contribution Guidelines
-- Fork the repository.
-- Create a feature branch.
-- Commit changes with proper messages.
-- Submit a pull request.
 
 ## 🏆 Hackathon Submission Details
 - **Team Name**: [Your Team Name]
 - **Hackathon Name**: [Hackathon Name]
 - **Submission Date**: [Date]
-- **Demo URL**: [Live Demo Link]
 - **Presentation**: [Link to PPT/Video]
 
 ## 📩 Contact
-For any queries, feel free to reach out at **[your-email@example.com]**.
+For any queries, feel free to reach out at **[deepanshu20@s.amity.edu]**.
 
 ---
 💡 *This project is developed as part of a hackathon submission to showcase an efficient leave approval system.*
