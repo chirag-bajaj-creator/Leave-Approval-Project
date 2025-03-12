@@ -4,7 +4,6 @@
 The **Leave Approval System** is an automated platform designed to streamline the process of leave requests and approvals within an organization. The system provides role-based access, allowing employees to request leave and managers to approve or reject requests efficiently.
 
 ## 📌 Features
-- **User Authentication & Role Management**: Secure login system with roles (Employee, Manager, Admin).
 - **Leave Request Submission**: Employees can request leave by selecting dates, type of leave, and providing a reason.
 - **Approval & Rejection Process**: Managers can review, approve, or reject leave requests.
 - **Leave Balance Tracking**: Employees can check their available leave balance.
@@ -12,11 +11,10 @@ The **Leave Approval System** is an automated platform designed to streamline th
 - **Dashboard & Reports**: Admins can monitor leave trends and generate reports.
 
 ## 🛠️ Tech Stack
-- **Frontend**: React.js / Next.js
-- **Backend**: Node.js with Express / Spring Boot
-- **Database**: MongoDB / PostgreSQL / MySQL
-- **Authentication**: JWT / OAuth2
-- **Deployment**: Docker, AWS / Heroku
+- **Frontend**: React.js
+- **Backend**: Flask
+- **Database**: MySQL
+- **Deployment**: Docker, Informatica: AI Powered Cloud Data Management
 
 ## 📂 Project Structure
 ```
