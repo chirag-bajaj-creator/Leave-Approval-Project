@@ -1,0 +1,51 @@
+Employee ID,Leave Dates,AI Decision,Explanation,Leave Type,Detected Sandwich Leave Sets,Sandwich Status
+10174,['2024-06-23'],Approved,"Based on the provided information, the leave request has been *approved*.
+Leave Dates: ['2024-06-23']
+Detected Sandwich Leave Sets: No sandwich leave detected
+Leave Category: Non-Sandwich Leave
+The employee met the required performance and leave frequency criteria.",Full Day,None,Non-Sandwich
+10204,['2024-09-12'],Approved,"Based on the provided information, the leave request has been *approved*.
+Leave Dates: ['2024-09-12']
+Detected Sandwich Leave Sets: No sandwich leave detected
+Leave Category: Non-Sandwich Leave
+The employee met the required performance and leave frequency criteria.",Full Day,None,Non-Sandwich
+10217,"['2024-07-12', '2024-07-13']",Rejected,"Based on the provided information, the leave request has been *rejected*.
+Leave Dates: ['2024-07-12', '2024-07-13']
+Detected Sandwich Leave Sets: [['2024-07-12', '2024-07-13']]
+Leave Category: Sandwich Leave
+The employee's leave frequency, performance score, or detected sandwich leave did not meet the approval criteria.",N/A,"[['2024-07-12', '2024-07-13']]",Sandwich
+10220,['2024-06-29'],Approved,"Based on the provided information, the leave request has been *approved*.
+Leave Dates: ['2024-06-29']
+Detected Sandwich Leave Sets: No sandwich leave detected
+Leave Category: Non-Sandwich Leave
+The employee met the required performance and leave frequency criteria.",Full Day,None,Non-Sandwich
+10326,"['2024-10-08'], ['2024-10-08'], ['2024-02-04'], ['2024-10-08'], ['2024-02-04'], ['2024-02-04'], ['2024-02-04'], ['2024-10-08']",Approved,"Based on the provided information, the leave request has been *approved*.
+Leave Dates: ['2024-10-08'], ['2024-10-08'], ['2024-02-04'], ['2024-10-08'], ['2024-02-04'], ['2024-02-04'], ['2024-02-04'], ['2024-10-08']
+Detected Sandwich Leave Sets: No sandwich leave detected
+Leave Category: Non-Sandwich Leave
+The employee met the required performance and leave frequency criteria.",Full Day,None,Non-Sandwich
+10397,"['2024-05-03', '2024-05-04']",Rejected,"Based on the provided information, the leave request has been *rejected*.
+Leave Dates: ['2024-05-03', '2024-05-04']
+Detected Sandwich Leave Sets: [['2024-05-03', '2024-05-04']]
+Leave Category: Sandwich Leave
+The employee's leave frequency, performance score, or detected sandwich leave did not meet the approval criteria.",N/A,"[['2024-05-03', '2024-05-04']]",Sandwich
+10600,['2024-05-12'],Approved,"Based on the provided information, the leave request has been *approved*.
+Leave Dates: ['2024-05-12']
+Detected Sandwich Leave Sets: No sandwich leave detected
+Leave Category: Non-Sandwich Leave
+The employee met the required performance and leave frequency criteria.",Full Day,None,Non-Sandwich
+10854,['2024-08-03'],Approved,"Based on the provided information, the leave request has been *approved*.
+Leave Dates: ['2024-08-03']
+Detected Sandwich Leave Sets: No sandwich leave detected
+Leave Category: Non-Sandwich Leave
+The employee met the required performance and leave frequency criteria.",Full Day,None,Non-Sandwich
+10858,"['2024-06-02', '2024-06-03']",Approved,"Based on the provided information, the leave request has been *approved*.
+Leave Dates: ['2024-06-02', '2024-06-03']
+Detected Sandwich Leave Sets: [['2024-06-02', '2024-06-03']]
+Leave Category: Sandwich Leave
+The employee met the required performance and leave frequency criteria.",Half Day,"[['2024-06-02', '2024-06-03']]",Sandwich
+11170,"['2024-04-12', '2024-04-13']",Approved,"Based on the provided information, the leave request has been *approved*.
+Leave Dates: ['2024-04-12', '2024-04-13']
+Detected Sandwich Leave Sets: [['2024-04-12', '2024-04-13']]
+Leave Category: Sandwich Leave
+The employee met the required performance and leave frequency criteria.",Half Day,"[['2024-04-12', '2024-04-13']]",Sandwich

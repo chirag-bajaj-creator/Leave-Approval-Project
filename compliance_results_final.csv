@@ -1,0 +1,408 @@
+Employee ID,Compliance Result
+10174,"## Employee Leave Compliance Analysis
+
+**Employee Data:**
+
+```
+[{'Employee ID': 10174, 'Employee Name': 'Anita Smith', 'Department/Team': 0, 'Designation/Role': 3, 'Current Employment Status': 0, 'Total Work Duration (years)': 14.1, 'Leave Date': '2024-06-23', 'Leave Type': 4, 'Leave Approval Status': 0, 'Leave Frequency': 7, 'Weekend Leaves (Sat/Sun Included?)': 1, 'Tasks Assigned': 93, 'Tasks Completed on Time': 34.0, 'Missed Deadlines': 59.0, 'Employee Performance Score': 96.2, 'Team Size': 42, 'Active Employees in Team': 6, 'Leaves in Team for Same Period': 11.0, 'Skill Rating': 6.9, 'Past Performance Reviews': 2.4, 'Project Involvement': 0, 'Total Leave Days (per month/year)': 19, 'Leave Impact on Work': 0, 'Performance Rating': 3.8, 'Skill_Performance': 16.56, 'Leave Month': 1, 'Leave Approval Rate': 0.0, 'Leave Impact Score': 182.0, 'Team Workload Ratio': 0.14285714285714285}]
+```
+
+**Compliance Check Results:**
+
+| Criteria                       | Status     | Remarks                                                                                        |
+|-----------------------------------|------------|------------------------------------------------------------------------------------------------|
+| **Valid Leave Type**           | **Unknown** |  Analysis requires a mapping of numeric Leave Type codes to actual leave categories (e.g., Sick, Vacation, etc.) to determine validity. |
+| **Leave Approval Status**       | **Non-Compliant** | Leave Approval Status is 0, indicating it's not approved.                                         |
+| **Leave Duration Limits**      | **Unknown** | No information on allowed leave duration for the given leave type.  Requires policy information.       |
+| **Maternity Leave Eligibility** | **Compliant** |  Employee tenure (14.1 years) exceeds the minimum requirement of 80 days.                      |
+| **Data Privacy**               | **Compliant** | No sensitive data like Aadhaar/bank details are present in the provided data.                 |
+
+
+**Compliance Percentage:**
+
+Based on the verifiable criteria, the current compliance level is **33.33%** (1 out of 3 verifiable criteria met).  This percentage is provisional as two criteria are dependent on additional information regarding valid leave types and allowed durations.
+
+
+**Recommendations:**
+
+
+* **Define Leave Types:** Establish a clear mapping of leave type codes to descriptions. This will enable validation of leave types.
+* **Enforce Leave Approval Process:** Investigate why the leave request isn't approved and follow the appropriate approval workflow.
+* **Establish Leave Duration Policies:** Define maximum allowable durations for each leave type to ensure compliance.
+* **Monitor Leave Trends:** Regularly analyze leave data to identify potential issues, predict resource needs, and ensure ongoing compliance.
+
+**Note:**  The provided data includes several fields related to employee performance.  While these are not directly part of leave compliance, they can be valuable in assessing the impact of leave on team productivity and workload.  This information can be used to inform resource planning and performance management strategies.
+"
+10204,"## Employee Leave Data Compliance Analysis
+
+**Employee:** Lisa Dominguez (ID: 10204)
+
+**Data:**
+
+```json
+[{'Employee ID': 10204, 'Employee Name': 'Lisa Dominguez', 'Department/Team': 3, 'Designation/Role': 4, 'Current Employment Status': 2, 'Total Work Duration (years)': 5.7, 'Leave Date': '2024-09-12', 'Leave Type': 2, 'Leave Approval Status': 0, 'Leave Approval Rate': 0.0, 'Leave Frequency': 4, 'Weekend Leaves (Sat/Sun Included?)': 1, 'Tasks Assigned': 76, 'Tasks Completed on Time': 42.0, 'Missed Deadlines': 34.0, 'Employee Performance Score': 86.7, 'Team Size': 10, 'Active Employees in Team': 10, 'Leaves in Team for Same Period': 8.0, 'Skill Rating': 5.8, 'Past Performance Reviews': 2.8, 'Project Involvement': 2, 'Total Leave Days (per month/year)': 1, 'Leave Impact on Work': 1, 'Performance Rating': 1.3, 'Skill_Performance': 16.24, 'Leave Month': 4, 'Leave Impact Score': -28.0, 'Team Workload Ratio': 1.0}]
+```
+
+**Compliance Check Results:**
+
+* **Valid Leave Types:** Cannot assess without a provided list of valid leave type codes.  Assumed compliant for now.
+* **Leave Approval Status:** Non-Compliant. The 'Leave Approval Status' is 0, indicating the leave is not approved.
+* **Leave Duration Limits:** Compliant.  The 'Total Leave Days' is 1, which falls within typical limits (assuming monthly or yearly total).  Clarification needed on whether this is per month or year.
+* **Maternity Leave Eligibility (if applicable):** Compliant. With 5.7 years of tenure, the employee exceeds the 80-day minimum requirement if applying for maternity leave.
+* **Data Privacy:** Compliant. No sensitive data like Aadhaar/bank details are present.
+
+**Compliance Summary:**
+
+| Criterion                     | Status     | Notes                                                                   |
+|------------------------------|------------|-----------------------------------------------------------------------|
+| Valid Leave Type             | Assumed Compliant | Requires a mapping of leave type codes to verify.                    |
+| Leave Approval Status        | Non-Compliant | Leave request not approved.                                             |
+| Leave Duration Limits        | Compliant    | Assuming 1 day is within monthly/yearly limits. Clarification needed. |
+| Maternity Leave Eligibility | Compliant    | Employee tenure exceeds minimum requirement.                           |
+| Data Privacy                  | Compliant    | No sensitive data observed.                                              |
+
+
+**Overall Compliance Percentage:** 60% (3 out of 5 criteria met, assuming Valid Leave Type is compliant)
+
+
+**Recommendations:**
+
+* **Clarify Leave Type Codes:** Provide a list of valid leave type codes to properly assess compliance.
+* **Investigate Leave Approval:** Determine the reason for the unapproved leave status and take appropriate action.
+* **Specify Leave Duration:** Clarify whether ""Total Leave Days"" refers to a monthly or yearly total.  This will allow for more accurate assessment against leave policies. 
+
+**Disclaimer:** This analysis is based on the limited information provided.  Further details about leave policies, leave type codes, and organizational context may be required for a more comprehensive assessment. 
+"
+10217,"## Employee Leave Compliance Analysis
+
+**Employee:** Jacqueline Gonzalez MD (ID: 10217)
+
+**Data:**
+
+```json
+[{'Employee ID': 10217, 'Employee Name': 'Jacqueline Gonzalez MD', 'Department/Team': 5, 'Designation/Role': 5, 'Current Employment Status': 0, 'Total Work Duration (years)': 8.6, 'Leave Date': '2024-07-12', 'Leave Type': 4, 'Leave Approval Status': 2, 'Leave Frequency': 0, 'Weekend Leaves (Sat/Sun Included?)': 0, 'Tasks Assigned': 79, 'Tasks Completed on Time': 6.0, 'Missed Deadlines': 73.0, 'Employee Performance Score': 59.4, 'Team Size': 47, 'Active Employees in Team': 35, 'Leaves in Team for Same Period': 21.0, 'Skill Rating': 4.8, 'Past Performance Reviews': 2.6, 'Project Involvement': 1, 'Total Leave Days (per month/year)': 19, 'Leave Impact on Work': 2, 'Performance Rating': 1.9, 'Skill_Performance': 12.48, 'Leave Month': 7, 'Leave Approval Rate': 200.0, 'Leave Impact Score': 0.0, 'Team Workload Ratio': 0.7446808510638298}]
+```
+
+**Compliance Checks:**
+
+1. **Valid Leave Type:** We need a mapping of Leave Type codes to actual leave types to verify validity.  Assuming '4' represents a valid leave type (e.g., Paid Time Off, Sick Leave, etc.), this check *passes* for now.  **Requires further clarification.**
+
+2. **Leave Approval Status:**  A status of '2' needs clarification.  Assuming '2' represents ""Approved,"" this check *passes* for now. **Requires further clarification.**
+
+3. **Leave Duration Limits:** 19 days of leave in a month/year.  We need company policy on maximum leave duration per month/year to assess compliance.  This check is *inconclusive* without more information. **Requires further clarification.**
+
+4. **Maternity Leave Eligibility:**  Tenure is 8.6 years, which is well above the 80-day minimum. If the leave type '4' is maternity leave,  the employee is *eligible*. **Requires clarification on Leave Type.**
+
+5. **Data Privacy:** No sensitive data like Aadhaar/bank details are present. This check *passes*.
+
+
+**Compliance Percentage:**
+
+Based on the available information and assumptions made, the compliance stands at **60%** (3 out of 5 checks pass or are assumed to pass).  Two checks are inconclusive due to missing information.
+
+
+**Recommendations and Next Steps:**
+
+* **Clarify Leave Type Codes:** Provide a mapping of numeric leave codes to their meanings.  This is crucial for accurate assessment.
+* **Clarify Leave Approval Status Codes:**  Define the meanings of different approval status codes.
+* **Provide Leave Policy Details:** Share the company policy regarding maximum leave durations (per month/year) and other relevant leave rules.
+* **Review Leave Type for Maternity Leave:**  Confirm if Leave Type '4' is maternity leave to finalize eligibility assessment.
+
+By addressing these points, a more accurate and complete compliance analysis can be conducted.
+"
+10220,"## Employee Leave Compliance Analysis
+
+**Employee Data:**
+
+```
+[{'Employee ID': 10220, 'Employee Name': 'Adriana Bowen', 'Department/Team': 4, 'Designation/Role': 5, 'Current Employment Status': 0, 'Total Work Duration (years)': 14.9, 'Leave Date': '2024-06-29', 'Leave Type': 2, 'Leave Approval Status': 2, 'Leave Frequency': 3, 'Weekend Leaves (Sat/Sun Included?)': 0, 'Tasks Assigned': 16, 'Tasks Completed on Time': 5.0, 'Missed Deadlines': 11.0, 'Employee Performance Score': 54.3, 'Team Size': 8, 'Active Employees in Team': 5, 'Leaves in Team for Same Period': 3.0, 'Skill Rating': 1.5, 'Past Performance Reviews': 1.8, 'Project Involvement': 0, 'Total Leave Days (per month/year)': 14, 'Leave Impact on Work': 1, 'Performance Rating': 4.7, 'Skill_Performance': 2.7, 'Leave Month': 4, 'Leave Approval Rate': 50.0, 'Leave Impact Score': 21.0, 'Team Workload Ratio': 0.625}]
+```
+
+**Compliance Checks:**
+
+1. **Valid Leave Type:**  We need a mapping of leave type codes to descriptions to verify validity. Assuming '2' is a valid leave type code, this check *passes*.
+
+2. **Leave Approval Status:**  A status of '2' suggests approved leave. This check *passes*.
+
+3. **Leave Duration Limits:** We need information on the allowed leave days per month/year for this employee's role/department.  The data shows 14 days, but without a limit to compare it to, this check is *inconclusive*.
+
+4. **Maternity Leave Eligibility:** Adriana has worked for 14.9 years, far exceeding the 80-day minimum tenure. If the leave type '2' signifies maternity leave, she is eligible. This check is *likely to pass* but depends on the leave type mapping.
+
+5. **Data Privacy:** No sensitive PII like Aadhaar or bank details are present. This check *passes*.
+
+
+**Compliance Summary:**
+
+| Check                            | Status        | Notes                                                                 |
+|---------------------------------|---------------|-----------------------------------------------------------------------|
+| Valid Leave Type                | Pass          | Assuming '2' is a valid leave type code. Need leave type mapping.           |
+| Leave Approval Status            | Pass          | Status '2' indicates approval.                                       |
+| Leave Duration Limits           | Inconclusive  | Need information on allowed leave duration.                           |
+| Maternity Leave Eligibility      | Likely Pass   | Tenure requirement met. Needs confirmation of leave type.             |
+| Data Privacy                    | Pass          | No sensitive data observed.                                          |
+
+
+**Overall Compliance Percentage:**
+
+Due to the ""inconclusive"" status of the Leave Duration Limits check and uncertainty about the Leave Type mapping, a precise percentage can't be calculated.  If we assume both these checks eventually pass, then compliance would be 100%.  If one or both fail, the percentage would decrease accordingly. 
+
+
+**Recommendations:**
+
+* **Provide a Leave Type Mapping:**  A table mapping the leave type codes (e.g., '2') to their descriptions (e.g., 'Sick Leave', 'Vacation', 'Maternity Leave') is needed for complete validation.
+* **Define Leave Duration Limits:**  Establish clear policies on the maximum leave days allowed per period (month/year) based on employee role, department, or other relevant factors. This information is crucial for compliance checks.
+* **Refine Data Collection:**  While the current data doesn't include sensitive information, be vigilant about data minimization.  Only collect data necessary for leave management and compliance. Regularly review data fields to ensure compliance with privacy regulations. 
+"
+10326,"## Employee Leave Compliance Analysis
+
+**Valid Leave Types:**  Assuming leave types are coded (1: Sick, 2: Vacation, etc.), we need a mapping to verify. Currently, we can only check if the leave type is an integer.
+
+**Leave Approval Status:** 0 and 1 are assumed to represent Unapproved and Approved, respectively.
+
+**Leave Duration Limits:** Missing information on allowed leave durations per type and period (month/year).  We have ""Total Leave Days"" but no limits to compare against.
+
+**Maternity Leave Eligibility:** We have tenure information (""Total Work Duration""). 80 days is approximately 0.22 years.
+
+**Data Privacy:** No sensitive data like Aadhaar or bank details are present in the provided dataset.
+
+**Analysis Results:**
+
+| Employee ID | Employee Name | Compliance Issues |
+|---|---|---|
+| 10326 | Michelle Sullivan | * Leave Type validity unknown (Code: 2).<br>* Total leave days (26) exceeds typical limits (assuming a standard limit, which isn't provided).<br>* Further investigation needed regarding the high number of missed deadlines (58 out of 79 tasks). |
+| 10326 | Patricia Gilbert | * Leave Unapproved (Status: 0).<br>* Leave Type validity unknown (Code: 1).<br>* High leave frequency (10) warrants attention.<br>* Significant negative leave impact on work (Impact: 1).<br>* Very low team workload ratio (0.075) and high leaves in the team (34 out of 40) for the same period suggest potential team-level issues.|
+
+
+**Compliance Percentage Calculation:**
+
+Due to missing information (leave type mapping, leave duration limits), a precise compliance percentage cannot be calculated. We can, however, estimate based on the available data. 
+
+Out of the observable factors:
+
+* **Michelle Sullivan:** Potentially non-compliant due to excessive leave duration (assuming a standard limit) and requires investigation for missed deadlines. 
+* **Patricia Gilbert:** Non-compliant due to unapproved leave and potential issues related to team workload and leave frequency.
+
+Based on this limited analysis, we can **roughly estimate** a compliance rate of **0%** (since both employees have potential/confirmed issues) within the confines of the provided data. This estimate will likely change with more complete information.
+
+
+
+**Recommendations:**
+
+1. **Define Leave Type Codes:** Provide a mapping of leave type codes to descriptions (e.g., 1: Sick Leave, 2: Vacation, etc.).
+2. **Establish Leave Duration Limits:** Specify the maximum allowed leave durations per leave type and per period (month/year).
+3. **Investigate Leave Approval Process:** Ensure timely leave approval or rejection.  Patricia Gilbert's unapproved leave needs addressing.
+4. **Monitor Team Workload and Leave:** Investigate teams with high leave rates and imbalanced workloads (e.g., Patricia Gilbert's team).
+5. **Performance Management:** Address performance concerns like Michelle Sullivan's high rate of missed deadlines.
+
+By providing the missing information and addressing the identified issues, we can ensure better leave compliance tracking and management. 
+"
+10397,"## Employee Leave Compliance Analysis
+
+**Employee Data:**
+
+```json
+[{'Employee ID': 10397, 'Employee Name': 'Troy Powell', 'Department/Team': 5, 'Designation/Role': 2, 'Current Employment Status': 1, 'Total Work Duration (years)': 4.5, 'Leave Date': '2024-05-03', 'Leave Type': 0, 'Leave Approval Status': 0, 'Leave Frequency': 2, 'Weekend Leaves (Sat/Sun Included?)': 1, 'Tasks Assigned': 68, 'Tasks Completed on Time': 61.0, 'Missed Deadlines': 7.0, 'Employee Performance Score': 50.0, 'Team Size': 43, 'Active Employees in Team': 14, 'Leaves in Team for Same Period': 22.0, 'Skill Rating': 8.0, 'Past Performance Reviews': 3.2, 'Project Involvement': 2, 'Total Leave Days (per month/year)': 3, 'Leave Impact on Work': 0, 'Performance Rating': 1.4, 'Skill_Performance': 25.6, 'Leave Month': 12, 'Leave Approval Rate': 0.0, 'Leave Impact Score': -106.0, 'Team Workload Ratio': 0.32558139534883723}]
+```
+
+**Compliance Check Results:**
+
+| Criteria                       | Status     | Justification                                                                                           |
+| ----------------------------- | ---------- | ----------------------------------------------------------------------------------------------------- |
+| **Valid Leave Type**           | **FAIL**   | Missing information on valid leave type codes. Unable to verify if '0' is a valid code.                 |
+| **Leave Approval Status**      | **FAIL**   | Leave Approval Status is '0'. Assuming '0' represents 'Not Approved', the leave is not compliant.      |
+| **Leave Duration Limits**      | **PASS**   | 3 days leave is within reasonable limits (assuming the unit is days per month/year). Further limits are needed for precise evaluation. |
+| **Maternity Leave Eligibility** | **PASS**   |  4.5 years of tenure exceeds the 80-day (approximately 2.6 months) minimum requirement.                |
+| **Data Privacy**               | **PASS**   | No sensitive data like Aadhaar/bank details are present.                                              |
+
+
+**Compliance Percentage:** 40% (2 out of 5 criteria passed)
+
+
+**Recommendations:**
+
+* **Define Valid Leave Types:** Implement a clear list of leave type codes (e.g., Sick Leave - 1, Vacation - 2, etc.)  to validate leave type compliance effectively.
+* **Enforce Leave Approval Process:** Ensure leaves are properly approved before they are taken. The current record shows the leave is not approved.
+* **Specify Leave Duration Limits:** Define clear limits for different leave types (e.g., maximum sick leave days per year, maximum vacation days per year, etc.).
+* **Maintain Data Privacy:** Continue to avoid storing sensitive personal data like Aadhaar/bank details in the leave records.
+
+
+
+
+**Note:**  The analysis relies on assumptions due to missing information (e.g., meaning of code '0' for Leave Type and Leave Approval Status, units for Total Leave Days).  More comprehensive and clearer data will allow for a more accurate compliance assessment. 
+"
+10600,"## Employee Leave Compliance Analysis
+
+**Employee:** Amanda Davis (ID: 10600)
+
+**Data:**
+
+```json
+[{'Employee ID': 10600, 'Employee Name': 'Amanda Davis', 'Department/Team': 4, 'Designation/Role': 5, 'Current Employment Status': 0, 'Total Work Duration (years)': 14.0, 'Leave Date': '2024-05-12', 'Leave Type': 2, 'Leave Approval Status': 1, 'Leave Frequency': 5, 'Weekend Leaves (Sat/Sun Included?)': 0, 'Tasks Assigned': 60, 'Tasks Completed on Time': 1.0, 'Missed Deadlines': 59.0, 'Employee Performance Score': 60.0, 'Team Size': 26, 'Active Employees in Team': 20, 'Leaves in Team for Same Period': 12.0, 'Skill Rating': 2.0, 'Past Performance Reviews': 3.1, 'Project Involvement': 0, 'Total Leave Days (per month/year)': 25, 'Leave Impact on Work': 0, 'Performance Rating': 1.0, 'Skill_Performance': 6.2, 'Leave Month': 2, 'Leave Approval Rate': 16.666666666666664, 'Leave Impact Score': 295.0, 'Team Workload Ratio': 0.7692307692307693}]
+```
+
+**Compliance Checks:**
+
+1. **Valid Leave Type:** We need a mapping of Leave Type codes to actual leave types to determine validity.  Assuming '2' represents a valid leave type (e.g., Sick Leave, Vacation), this check *passes*.
+
+2. **Leave Approval Status:** '1' suggests approved status. This check *passes*.
+
+3. **Leave Duration Limits:**  25 days 'Total Leave Days (per month/year)' needs clarification. Is this per month or per year? If it's per month, it's unusually high and likely *fails*.  If it's per year, we need to compare it against the company's annual leave policy to determine compliance. Assuming a standard annual leave policy of around 20-25 days, this would likely *pass* if the value refers to annual leave.
+
+4. **Maternity Leave Eligibility:**  With 14 years of tenure, Amanda surpasses the 80-day minimum requirement.  However, we don't know if this leave is maternity leave. If 'Leave Type 2' IS maternity leave, the check *passes*. If it's NOT maternity leave, this check is *N/A*.
+
+
+5. **Data Privacy:**  No sensitive data like Aadhaar or bank details are present. This check *passes*.
+
+**Compliance Percentage Calculation:**
+
+Due to the ambiguities around Leave Duration and the nature of Leave Type 2, a precise compliance percentage is difficult.
+
+**Scenario 1: 25 days is annual leave, Leave Type 2 is NOT maternity leave.**
+
+* 4 out of 4 applicable checks pass (Valid Leave Type, Leave Approval Status, Leave Duration, Data Privacy).
+* **Compliance: 100%**
+
+
+**Scenario 2: 25 days is monthly leave, Leave Type 2 is NOT maternity leave.**
+
+* 3 out of 4 applicable checks pass (Valid Leave Type, Leave Approval Status, Data Privacy).
+* **Compliance: 75%** (Assuming all checks have equal weight).
+
+
+**Scenario 3: 25 days is annual leave, Leave Type 2 IS maternity leave.**
+
+* 4 out of 4 applicable checks pass (Valid Leave Type, Leave Approval Status, Leave Duration, Data Privacy, Maternity Leave Eligibility).
+* **Compliance: 100%**
+
+**Scenario 4: 25 days is monthly leave, Leave Type 2 IS maternity leave.**
+
+* 3 out of 4 applicable checks pass (Valid Leave Type, Leave Approval Status, Data Privacy, Maternity Leave Eligibility). Leave Duration fails.
+* **Compliance: 75%**
+
+
+**Conclusion:**
+
+Further information is required to accurately assess compliance, particularly regarding:
+
+* **Clarification of ""Total Leave Days"":** Is it per month or year?
+* **Mapping of Leave Type codes:** What does ""Leave Type 2"" represent?
+
+Once these points are clarified, a definitive compliance percentage can be calculated.  The current data raises a flag regarding the high number of leave days, especially if it is a monthly value. It warrants further investigation with the employee/manager to understand the reason for the high leave duration. The extremely low task completion rate and high number of missed deadlines (1 task completed out of 60) also raises serious concerns about performance issues and potentially necessitates intervention by HR and the employee's manager.
+"
+10854,"## Employee Leave Data Compliance Analysis
+
+**Employee:** Daniel Johnson (ID: 10854)
+
+**Data:**
+
+```json
+[{'Employee ID': 10854, 'Employee Name': 'Daniel Johnson', 'Department/Team': 0, 'Designation/Role': 1, 'Current Employment Status': 0, 'Total Work Duration (years)': 8.0, 'Leave Date': '2024-08-03', 'Leave Type': 0, 'Leave Approval Status': 0, 'Leave Frequency': 6, 'Weekend Leaves (Sat/Sun Included?)': 1, 'Tasks Assigned': 60, 'Tasks Completed on Time': 42.0, 'Missed Deadlines': 18.0, 'Employee Performance Score': 63.4, 'Team Size': 30, 'Active Employees in Team': 28, 'Leaves in Team for Same Period': 11.0, 'Skill Rating': 4.3, 'Past Performance Reviews': 2.5, 'Project Involvement': 0, 'Total Leave Days (per month/year)': 17, 'Leave Impact on Work': 1, 'Performance Rating': 3.7, 'Skill_Performance': 10.75, 'Leave Month': 2, 'Leave Approval Rate': 0.0, 'Leave Impact Score': -138.0, 'Team Workload Ratio': 0.9333333333333333}]
+```
+
+**Compliance Checks:**
+
+1. **Valid Leave Type:**  Requires further information on the coding used for `Leave Type = 0`.  Assuming a valid leave type exists, this check is marked as **PENDING**.
+
+2. **Leave Approval Status:** `Leave Approval Status = 0` and `Leave Approval Rate = 0.0` suggests the leave is not approved. This is **NON-COMPLIANT**.
+
+3. **Leave Duration Limits:** `Total Leave Days (per month/year) = 17`.  This requires context. 17 days per month would be excessive, but 17 days per year might be acceptable. This check is **PENDING** clarification regarding the unit (month/year).
+
+4. **Maternity Leave Eligibility:** With `Total Work Duration (years) = 8.0`, the employee meets the minimum 80 days tenure for maternity leave *if* the leave type is maternity. However,  without knowing the `Leave Type`, this check is **PENDING**.
+
+5. **Data Privacy:** No sensitive data (Aadhaar/bank details) is present. This is **COMPLIANT**.
+
+
+**Compliance Summary:**
+
+* **Compliant:** 1/5 (Data Privacy)
+* **Non-Compliant:** 1/5 (Leave Approval Status)
+* **Pending:** 3/5 (Valid Leave Type, Leave Duration Limits, Maternity Leave Eligibility)
+
+**Overall Compliance Percentage:** 20% (based on definitive results only)
+
+**Recommendations:**
+
+* **Clarify Leave Type Coding:** Provide a mapping of leave type codes to their descriptions (e.g., 0 = Sick Leave, 1 = Vacation, etc.) to assess validity.
+* **Investigate Leave Approval:** Determine why the leave request is not approved.  Follow the appropriate approval workflow.
+* **Specify Leave Duration Unit:**  Clarify whether `Total Leave Days` refers to a monthly or annual total.  Define acceptable limits for each leave type. 
+* **Confirm Leave Type if Maternity Leave:**  If the leave is for maternity, verify compliance with relevant regulations regarding duration, pay, etc.
+
+**Note:** This analysis is based on the limited data provided.  Further information is required to provide a complete and accurate compliance assessment.  The coding for categorical variables (e.g., 'Department/Team', 'Designation/Role') lacks context and limits further analysis.
+"
+10858,"## Employee Leave Compliance Analysis
+
+**Employee Data:**
+
+```
+[{'Employee ID': 10858, 'Employee Name': 'Stacey Roberts', 'Department/Team': 4, 'Designation/Role': 7, 'Current Employment Status': 0, 'Total Work Duration (years)': 10.9, 'Leave Date': '2024-06-03', 'Leave Type': 1, 'Leave Approval Status': 0, 'Leave Frequency': 2, 'Weekend Leaves (Sat/Sun Included?)': 0, 'Tasks Assigned': 27, 'Tasks Completed on Time': 9.0, 'Missed Deadlines': 18.0, 'Employee Performance Score': 79.2, 'Team Size': 26, 'Active Employees in Team': 18, 'Leaves in Team for Same Period': 13.0, 'Skill Rating': 1.7, 'Past Performance Reviews': 3.6, 'Project Involvement': 1, 'Total Leave Days (per month/year)': 4, 'Leave Impact on Work': 0, 'Performance Rating': 3.4, 'Skill_Performance': 6.12, 'Leave Month': 3, 'Leave Approval Rate': 0.0, 'Leave Impact Score': 20.0, 'Team Workload Ratio': 0.6923076923076923}]
+```
+
+**Compliance Checks:**
+
+1. **Valid Leave Types:**  Assuming 'Leave Type': 1 is a valid type.  *(Requires a list of valid leave types for definitive assessment)*. **Status: Compliant (Assumption)**
+
+2. **Leave Approval Status:** 'Leave Approval Status': 0 suggests the leave is not approved. **Status: Non-Compliant**
+
+3. **Leave Duration Limits:** 'Total Leave Days (per month/year)': 4. *(Requires information on allowed leave limits per month/year for definitive assessment)*. **Status: Compliant (Assumption)**
+
+4. **Maternity Leave Eligibility:**  'Total Work Duration (years)': 10.9. Employee tenure exceeds the minimum 80 days (approximately 2.6 months).  *(Requires ""Leave Type"" to confirm if it's maternity leave for accurate assessment)*. **Status: Potentially Compliant (Requires clarification on leave type)**
+
+5. **Data Privacy:** No sensitive data like Aadhaar/bank details is present in the provided data. **Status: Compliant**
+
+
+**Compliance Summary:**
+
+| Check                               | Status             |
+|------------------------------------|-------------------|
+| Valid Leave Type                   | Compliant (Assumed) |
+| Leave Approval Status              | Non-Compliant      |
+| Leave Duration Limit               | Compliant (Assumed) |
+| Maternity Leave Eligibility         | Potentially Compliant (Requires Clarification) |
+| Data Privacy                      | Compliant          |
+
+
+**Overall Compliance Percentage (based on assessed criteria):** 60% (3 out of 5 checks compliant or potentially compliant assuming the open issues are resolved favorably).
+
+
+**Recommendations:**
+
+* **Define Valid Leave Types:** Provide a list of valid leave type codes for accurate validation.
+* **Investigate Leave Approval:** Investigate why Stacey Roberts' leave request has not been approved.  Implement procedures to ensure timely leave approvals.
+* **Clarify Leave Limits:**  Define the allowed leave limits (per month/year) for each leave type.
+* **Verify Leave Type for Maternity Eligibility:** Confirm if ""Leave Type"": 1 represents maternity leave. If so, and it's not approved, investigate and rectify immediately.
+
+**Important Note:** The provided data is insufficient for a complete and accurate compliance assessment. More information about leave policies and the meaning of coded values (Leave Type, Leave Approval Status, etc.) is crucial for a robust analysis.
+"
+11170,"## Employee Leave Compliance Analysis
+
+**Employee Data:**
+
+```json
+[{'Employee ID': 11170, 'Employee Name': 'Nicholas Carter', 'Department/Team': 0, 'Designation/Role': 4, 'Current Employment Status': 1, 'Total Work Duration (years)': 0.1, 'Leave Date': '2024-04-12', 'Leave Type': 3, 'Leave Approval Status': 1, 'Leave Frequency': 0, 'Weekend Leaves (Sat/Sun Included?)': 1, 'Tasks Assigned': 83, 'Tasks Completed on Time': 66.0, 'Missed Deadlines': 17.0, 'Employee Performance Score': 94.6, 'Team Size': 13, 'Active Employees in Team': 12, 'Leaves in Team for Same Period': 7.0, 'Skill Rating': 3.5, 'Past Performance Reviews': 4.1, 'Project Involvement': 1, 'Total Leave Days (per month/year)': 2, 'Leave Impact on Work': 0, 'Performance Rating': 2.7, 'Skill_Performance': 14.349999999999998, 'Leave Month': 2, 'Leave Approval Rate': 100.0, 'Leave Impact Score': -0.0, 'Team Workload Ratio': 0.9230769230769231}]
+```
+
+**Compliance Check Results:**
+
+| Criterion | Status | Remarks |
+|---|---|---|
+| **Valid Leave Type** | Assumed Compliant |  No information provided about valid leave type codes. Assuming `Leave Type: 3` is valid. |
+| **Leave Approval Status** | Compliant | `Leave Approval Status: 1` indicates approval (assuming 1 represents approved). |
+| **Leave Duration Limits** | Compliant | `Total Leave Days (per month/year): 2` is within reasonable limits.  No specific limit provided for evaluation. |
+| **Maternity Leave Eligibility** | Non-Compliant |  `Total Work Duration (years): 0.1` (approximately 1 month) is less than the 80-day (approximately 2.6 months) minimum tenure required for maternity leave eligibility.  It is assumed that Leave Type 3 is Maternity Leave, as this is the only concerning factor in the data.  Clarification is needed on whether this leave is actually maternity leave.  If not, this criterion would be N/A.  |
+| **Data Privacy** | Compliant | No sensitive data (Aadhaar, bank details, etc.) is present. |
+
+**Compliance Percentage:** 75% (3 out of 4 applicable criteria met - assuming Leave Type 3 is *not* maternity leave)
+
+OR
+
+**Compliance Percentage:** 50% (2 out of 4 applicable criteria met - assuming Leave Type 3 *is* maternity leave)
+
+
+**Recommendations:**
+
+* **Clarify Leave Types:** Provide a list of valid leave type codes to accurately assess compliance.
+* **Maternity Leave Verification:** If the employee (Nicholas Carter - ID 11170) has applied for maternity leave, further investigation is needed given their short tenure. The leave type should be validated, and if it is maternity leave, it should be flagged for review by HR.
+* **Define Leave Duration Limits:** Establish clear limits for different leave types to improve compliance monitoring.
+
+**Note:** This analysis is based on the provided data and assumptions about the meaning of certain fields. Providing more context and specific rules (e.g., leave type codes, duration limits) will improve the accuracy and completeness of the analysis.
+"
