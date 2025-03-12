@@ -56,8 +56,8 @@ npm start     # Run the frontend app
 | Method | Endpoint                                           | Description               |
 |--------|----------------------------------------------------|---------------------------|
 | POST   | http:localhost:3000'/employee-details/<employee_id | Apply for leave           |
-| POST    | '/model-training'                                 | Real time model traning   |
-| POST    | /twilio-webhook                                   | Approve leave/Reject Leave|
+| POST   | '/model-training'                                  | Real time model traning   |
+| POST   | /twilio-webhook                                    | Approve leave/Reject Leave|
 
 
 ## 🚀 Future Enhancements
