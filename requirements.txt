@@ -1,0 +1,9 @@
+numpy
+pandas
+tensorflow
+scikit-learn
+flask
+joblib             # Often used to save/load models or scalers
+matplotlib         # Sometimes used for plots (if reports/graphs are generated)
+openpyxl           # In case Excel file export/import is used
+gunicorn           # For production WSGI server if deploying via Render/Heroku
