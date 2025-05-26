@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: leave-approval-backend
+    env: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: python final_Pipeline/backend_leave_pipeline.py
+    envVars:
+      - key: PORT
+        value: 3000
